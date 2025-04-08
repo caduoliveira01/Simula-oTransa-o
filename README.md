@@ -13,7 +13,7 @@ Desenvolvi esse projeto para simular uma transferência bancária e mostrar um p
 
 | Método | Endpoint | Descrição |
 |--------|---------|------------|
-| **POST** | `/transrfer` | Realiza a transação se passar por todos os teste de validação |
+| **POST** | `/transfer` | Realiza a transação se passar por todos os teste de validação |
 
 
 ## Desenvolvido por:
