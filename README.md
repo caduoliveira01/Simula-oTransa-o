@@ -7,6 +7,7 @@ Desenvolvi esse projeto para simular uma transferência bancária e mostrar um p
 - **Backend:**
   - Spring Boot
   - PostgreeSQL
+  - Docker
 
 
 ## Endpoints (Disponíveis apenas para usuários autenticados)
@@ -33,6 +34,7 @@ I developed this project to simulate a bank transfer and showcase some of my bac
 - **Backend:**
   - Spring Boot
   - PostgreSQL
+  - Docker
 
 ## Endpoints (Available only for authenticated users)
 
