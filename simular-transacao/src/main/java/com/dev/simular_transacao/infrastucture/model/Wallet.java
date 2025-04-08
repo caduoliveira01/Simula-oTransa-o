@@ -21,7 +21,7 @@ public class Wallet {
 
     private BigDecimal balance;
 
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "users_id")
     @OneToOne
-    private User user;
+    private Users users;
 }

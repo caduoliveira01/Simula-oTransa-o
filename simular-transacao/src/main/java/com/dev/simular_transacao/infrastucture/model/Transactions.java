@@ -1,10 +1,7 @@
 package com.dev.simular_transacao.infrastucture.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -15,6 +12,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Entity(name="transactions")
 @Table
+@Builder
 public class Transactions {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,11 +22,11 @@ public class Transactions {
 
     @JoinColumn(name="receiver_id")
     @ManyToOne
-    private User receiver;
+    private Users receiver;
 
     @JoinColumn(name="payer_id")
     @ManyToOne
-    private User payer;
+    private Users payer;
 
     private LocalDateTime time;
 
