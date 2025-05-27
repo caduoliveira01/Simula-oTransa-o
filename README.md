@@ -1,4 +1,4 @@
-# Gestão de Projetos
+# Transação Bancária
 
 ## Sobre o Projeto
 Desenvolvi esse projeto para simular uma transferência bancária e mostrar um pouco dos meus conhecimentos.
